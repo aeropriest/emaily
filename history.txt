@@ -1,0 +1,55 @@
+551  git clone https://github.com/aeropriest/React-Marketing-Campaign.git
+  552  cd React-Marketing-Campaign/
+  553  ls -l
+  554  pwd
+  555  ls -l
+  556  mkdir server
+  557  cd server/
+  558  npm init
+  559  ls -l
+  560  npm install --save express
+  561  cat package.json 
+  562  git status
+  563  cd ..
+  564  ls -l
+  565  git status
+  566  cd server
+  567  ls -l
+  568  cd ..
+  569  ls -l
+  570  git add server/
+  571  git status
+  572  git reset ~HEAD
+  573  git reset HEAD~
+  574  git reset
+  575  git status
+  576  pwd
+  577  touch .gitignore
+  578  ls
+  579  cat .gitignore 
+  580  touch .gitignore && echo "node_modules/" >> .gitignore && git rm -r --cached node_modules ; git status
+  581  cat .gitignore 
+  582  git status
+  583  git add .
+  584  git status
+  585  history
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  brew tap heroku/brew && brew install heroku
+  https://cli-auth.heroku.com/auth/cli/browser/9045a5d7-8451-40df-935e-13a98a2defa3?requestor=SFMyNTY.g2gDbQAAAA0xMjMuMjAyLjY5LjM2bgYAiE7TGnsBYgABUYA.-kgg6WG-csKwVkYr-wEY-hkjQlyis9wnz5iHdhB2xe8
+
+  git remote set-url --add https://aeropriest@github.com/aeropriest/React-Marketing-Campaign.git
+
+  heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs#latest -a marketing-campaign-udemy
+
+  git push heroku main:main  
+
+  heroku open
+npm install --save nodemon
+npm install --save mongoose
+  npm run dev
+  npm install --save passport passport-google-oauth20
+
+  https://console.cloud.google.com/apis/credentials?project=react-marketing-project
+  https://account.mongodb.com/account/loginnpm install --save cookie-session
+
+npm install --save cookie-session
